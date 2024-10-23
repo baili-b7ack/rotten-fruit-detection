@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 15
+names: ['fre-app', 'fre-ban', 'fre-gra', 'fre-gua', 'fre-juj', 'fre-org', 'fre-str', 'rot-app', 'rot-ban', 'rot-gra', 'rot-gua', 'rot-juj', 'rot-org', 'rot-pom', 'rot-str']
+
+roboflow:
+  workspace: swtzsb
+  project: swtzsb
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/swtzsb/swtzsb/dataset/1

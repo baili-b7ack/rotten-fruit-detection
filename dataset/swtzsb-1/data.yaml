@@ -1,0 +1,27 @@
+names:
+- fre-app
+- fre-ban
+- fre-org
+- fre-pom
+- fre-gua
+- fre-juj
+- fre-str
+- fre-gra
+- rot-app
+- rot-ban
+- rot-org
+- rot-pom
+- rot-gua
+- rot-juj
+- rot-str
+- rot-gra
+nc: 16
+roboflow:
+  license: CC BY 4.0
+  project: swtzsb
+  url: https://app.roboflow.com/swtzsb/swtzsb/1
+  version: 3
+  workspace: project
+train: /dataset/swtzsb-1/train
+test: /dataset/swtzsb-1/test
+val: /dataset/swtzsb-1/valid
